@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Personal on Vault of Josh</title>
+    <link>//localhost:1313/tags/personal/</link>
+    <description>Recent content in Personal on Vault of Josh</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 26 Jun 2024 09:29:49 +0100</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/personal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why I&#39;m Starting a Blog</title>
+      <link>//localhost:1313/posts/why-im-starting-a-blog/</link>
+      <pubDate>Wed, 26 Jun 2024 09:29:49 +0100</pubDate>
+      <guid>//localhost:1313/posts/why-im-starting-a-blog/</guid>
+      <description>For a long time, I&amp;rsquo;ve wanted an outlet to consolidate and share the knowledge and I gain from studying topics that fascinate me.</description>
+    </item>
+  </channel>
+</rss>
