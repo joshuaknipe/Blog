@@ -5,7 +5,7 @@
     
       <url>
             <loc>//localhost:1313/</loc>
-            <lastmod>2024-06-26T09:29:49+01:00</lastmod>
+            <lastmod>2024-06-27T01:29:49+01:00</lastmod>
           </url>
     
   
@@ -14,8 +14,17 @@
     
       <url>
             <loc>//localhost:1313/posts/</loc>
-            <lastmod>2024-06-26T09:29:49+01:00</lastmod>
+            <lastmod>2024-06-27T01:29:49+01:00</lastmod>
           </url>
+    
+  
+    
+      <url>
+            <loc>//localhost:1313/posts/reflections-on-meditations-by-aurelius/</loc>
+            <lastmod>2024-06-27T01:29:49+01:00</lastmod>
+          </url>
+    
+  
     
   
     
