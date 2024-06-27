@@ -1,8 +1,8 @@
-—
+—--
 title: “Reflections on Meditations by Marcus Aurelius”
 date: 2024-06-27T09:29:49+01:00
 tags: [‘updates’, ‘books’]
-—
+—--
 
 
 Meditations by Marcus Aurelius, a cornerstone of Stoic philosophy, offers timeless wisdom that remains remarkably relevant in today’s fast-paced world. Composed as a series of personal reflections, Meditations provides profound insights into life, leadership, and personal growth. Below are some of the key takeaways I got from this classic.
