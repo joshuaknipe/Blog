@@ -10,7 +10,7 @@ Meditations by Marcus Aurelius, a cornerstone of Stoic philosophy, offers timele
 
 One of the central tenets of Stoicism, and a recurring theme in Meditations, is the importance of living in the present moment. Aurelius reminds us that the past is beyond our control and the future is uncertain, so our focus should be on the present.
 
->”Confine yourself to the present.” - Book 8, Section 36
+>”Confine yourself to the present.”
 
 This simple yet profound directive encourages us to engage fully with the present, avoiding the anxiety of what has been or what might be. By centering our attention on the here and now, we can lead more mindful and fulfilling lives.
 
@@ -18,7 +18,7 @@ This simple yet profound directive encourages us to engage fully with the presen
 
 Aurelius repeatedly emphasizes the significance of perspective in shaping our experiences and reactions. He encourages us to view challenges as opportunities for growth rather than obstacles.
 
->”You have power over your mind - not outside events. Realize this, and you will find strength.” - Book 4, Section 3
+>”You have power over your mind - not outside events. Realize this, and you will find strength.”
 
 This insight underscores the Stoic belief that our perceptions, not external events, determine our happiness and tranquility. By cultivating a disciplined mind, we can navigate life’s challenges with resilience and composure.
 
@@ -26,7 +26,7 @@ This insight underscores the Stoic belief that our perceptions, not external eve
 
 Aurelius advises accepting the natural course of events and understanding that change is an inherent part of life. This Stoic acceptance doesn’t imply passivity but rather a recognition of the limits of our control and an embrace of what we can influence.
 
->”Everything that happens, happens as it should, and if you observe carefully, you will find this to be so.” - Book 4, Section 10
+>”Everything that happens, happens as it should, and if you observe carefully, you will find this to be so.”
 
 This perspective fosters a sense of peace and acceptance, helping us to adapt to changes and uncertainties with grace and equanimity.
 
@@ -34,7 +34,7 @@ This perspective fosters a sense of peace and acceptance, helping us to adapt to
 
 Meditations often reflects on the transient nature of life and the inevitability of death. Aurelius uses this awareness to inspire a life of purpose and virtue, urging us to make the most of our time.
 
->”Do not act as if you had ten thousand years to live. Your death will come soon. Have this thought in mind in all that you do or say or think.” - Book 4, Section 17
+>”Do not act as if you had ten thousand years to live. Your death will come soon. Have this thought in mind in all that you do or say or think.” 
 
 By contemplating our mortality, we can prioritize what truly matters, live authentically, and avoid the distractions of trivial pursuits.
 
@@ -42,7 +42,7 @@ By contemplating our mortality, we can prioritize what truly matters, live authe
 
 Aurelius emphasizes the importance of fulfilling our duties and contributing to the common good. He views each individual’s role in society as integral to the larger whole, encouraging us to act with integrity and selflessness.
 
->”What is your vocation? To be a good person.” - Book 11, Section 5
+>”What is your vocation? To be a good person.”
 
 This call to ethical living and communal responsibility resonates deeply in an era often marked by individualism. Aurelius reminds us that true fulfillment arises from contributing to something greater than ourselves.
 
