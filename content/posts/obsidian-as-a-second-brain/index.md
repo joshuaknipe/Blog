@@ -55,7 +55,7 @@ SORT file.day
     caption="Calendar plugin"
     default=true
     width="50%"
-    style="display: block; margin-left: auto; margin-right: auto;"
+    class="centre-image"
     >}}
 
 **DB Folder**: allows you to create Notion like databases in your Obsidian Vault. This allows you to view and edit the metadata of your notes without having to open them directly. Perfect for habit tracking!
@@ -67,7 +67,7 @@ SORT file.day
 **Omnisearch**: a search engine that helps you find the most relevant notes in your vault, thanks to its smart weighting algorithm
 
 **Obsidian Kindle Plugin**: sync your Kindle notes and highlights directly into your Obsidian vault. Allows you to parse and render the highlights into a template that you can configure. I have set my highlights to come through with a "Kindle::" tag so that I can populate my daily notes with some random highlights every day.
-![List of extracts from a book](images/kindle.png "Kindle extracts from Paul Graham's essay, 'How to make wealth'")
+![List of extracts from a book](images/kindle.png (Kindle extracts from Paul Graham's essay: "How to make wealth"))
 
 **Omnivore plugin**: sync highlights from [Omnivore](https://omnivore.app) (my favourite read it later app for articles and blog posts) into Obsidian
 
