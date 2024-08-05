@@ -54,7 +54,7 @@ SORT file.day
     alt="Calendar plugin example in Obsidian"
     caption="Calendar plugin"
     default=true
-    width = 50%
+    width="50%"
     >}}
 
 **DB Folder**: allows you to create Notion like databases in your Obsidian Vault. This allows you to view and edit the metadata of your notes without having to open them directly. Perfect for habit tracking!
