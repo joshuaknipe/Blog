@@ -27,7 +27,7 @@ Building a second brain is closely related to the topic of Personal Knowledge Ma
    ![Linking example in Obsidian](images/linking.jpg "Linking example in Obsidian")
 
 4. **Graph View** Obsidian provides a visual representation of the connections between notes through the graph view, allowing you to explore relationships in your knowledge. It's like having a mind map that grows organically as you add more notes.
-   ![Multicoloured graph displaying second brain linking](images/graph.png "This is what my graph looks like as at July 2024")
+   ![Multicoloured graph displaying second brain linking](images/graph.png "The graph view of my vault as at July 2024")
 
 5. **It's Free**: Obsidian is completely free to use on any device. While Obsidian does offer a paid syncing feature to edit notes from any of your devices, you can achieve the same setup for free with some tinkering.
 
@@ -49,7 +49,7 @@ SORT file.day
 ```
 
 **Calendar**: Integrates a calendar view into your notes for easy navigation between your daily and weekly notes
-![Calendar plugin example in Obsidian](images/calendar.png "Calendar plugin")
+![Calendar plugin example in Obsidian](images/calendar.png "Calendar plugin"){ style="width:50%;" }
 
 **DB Folder**: allows you to create Notion like databases in your Obsidian Vault. This allows you to view and edit the metadata of your notes without having to open them directly. Perfect for habit tracking!
 ![DB Folder plugin example in Obsidian](images/dbfolder.png "DB Folder example showing metadata for my daily notes")
