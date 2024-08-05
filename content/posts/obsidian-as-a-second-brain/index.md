@@ -49,7 +49,13 @@ SORT file.day
 ```
 
 **Calendar**: Integrates a calendar view into your notes for easy navigation between your daily and weekly notes
-![Calendar plugin example in Obsidian](images/calendar.png "Calendar plugin"){ style="width:50%;" }
+{{< figure
+    src="images/calendar.png"
+    alt="Calendar plugin example in Obsidian"
+    caption="Calendar plugin"
+    default=true
+    width = 50%
+    >}}
 
 **DB Folder**: allows you to create Notion like databases in your Obsidian Vault. This allows you to view and edit the metadata of your notes without having to open them directly. Perfect for habit tracking!
 ![DB Folder plugin example in Obsidian](images/dbfolder.png "DB Folder example showing metadata for my daily notes")
