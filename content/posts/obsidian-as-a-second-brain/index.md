@@ -24,7 +24,7 @@ Building a second brain is closely related to the topic of Personal Knowledge Ma
 2. **Markdown Support**: Notes are written in plain text Markdown, meaning you can create notes without worrying about formatting distractions. Combined with the local storage feature, it also means your Obsidian repository is simply a folder of Markdown files on your device. If you ever get tired of Obsidian, you can still easily access and edit your files with any other text editor. Not being permanently tied to Obsidian is one of its best features, as you know you can preserve your data for the long term.
 
 3. **Linking and Backlinking**: Notes can be bidirectionally linked to create a web of interconnected ideas. As mentioned earlier, this is a crucial requirement for a second brain. Obsidian makes this process very easy - you just enter the name of a note you want to link to the current note between square brackets.  
-   ![Linking example in Obsidian](images/linking.jpg "Linking example in Obsidian")
+   ![Linking example in Obsidian](images/linking.png "Linking example in Obsidian")
 
 4. **Graph View** Obsidian provides a visual representation of the connections between notes through the graph view, allowing you to explore relationships in your knowledge. It's like having a mind map that grows organically as you add more notes.
    ![Multicoloured graph displaying second brain linking](images/graph.png "The graph view of my vault as at July 2024")
@@ -55,6 +55,7 @@ SORT file.day
     caption="Calendar plugin"
     default=true
     width="50%"
+    style="display: block; margin-left: auto; margin-right: auto;"
     >}}
 
 **DB Folder**: allows you to create Notion like databases in your Obsidian Vault. This allows you to view and edit the metadata of your notes without having to open them directly. Perfect for habit tracking!
@@ -66,7 +67,7 @@ SORT file.day
 **Omnisearch**: a search engine that helps you find the most relevant notes in your vault, thanks to its smart weighting algorithm
 
 **Obsidian Kindle Plugin**: sync your Kindle notes and highlights directly into your Obsidian vault. Allows you to parse and render the highlights into a template that you can configure. I have set my highlights to come through with a "Kindle::" tag so that I can populate my daily notes with some random highlights every day.
-![List of extracts from a book](images/kindle.png "Kindle extracts from Paul Graham's essay, "How to make wealth")
+![List of extracts from a book](images/kindle.png "Kindle extracts from Paul Graham's essay, 'How to make wealth'")
 
 **Omnivore plugin**: sync highlights from [Omnivore](https://omnivore.app) (my favourite read it later app for articles and blog posts) into Obsidian
 
