@@ -17,7 +17,7 @@ I love to build things - both in software and in the real world. Some of my inte
 
 - **Web development**: I am currently using mostly TailWind, React and Next.js to build web apps for myself and friends
 - **Mobile app development**: React Native and Expo is my go-to for building mobile apps at the moment
-- **Generative AI**: especially its applications to Retrieval Augmented Generation (RAG). See [Rag Demo](https://github.com/joshuaknipe/RAG-apphttps://github.com/joshuaknipe/) if you're interested
+- **Generative AI**: especially its applications to Retrieval Augmented Generation (RAG). See [Rag Demo](https://github.com/joshuaknipe/RAG-app) if you're interested
 - **Personal knowledge management**: I'm a big fan of tools like Obsidian and [this](https://joshuaknipe.com/posts/obsidian-as-a-second-brain/) is why
 - **Self-hosting**: I run a lightweight Debian server at home for all my crucial services and a beefier Arch minipc for everything else. Some of my favourite services to run include:
   - **Home automation**: I use [Home Assistant](https://www.home-assistant.io/) to monitor and control my apartment
