@@ -62,7 +62,7 @@ fingerprintAlgorithm = "sha256"
   paginationWidth = 1
 
 [sitemap]
-  excludedKinds = ["taxonomy", "term","about"]
+  excludedKinds = ["taxonomy", "term"]
 
 [taxonomy]
   showTermCount = true
