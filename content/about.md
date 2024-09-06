@@ -9,8 +9,6 @@ showComments: false
 showTableOfContents: false
 ---
 
-# About me
-
 ## A brief bio
 
 Welcome! My name is Josh Knipe and I grew up in Cape Town, South Africa. I moved to London in 2023 and am currently working here as a quantitative developer.
