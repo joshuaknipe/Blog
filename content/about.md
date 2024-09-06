@@ -1,4 +1,6 @@
 ---
+title: "About me"
+description: "A brief bio of Josh Knipe"
 date: 2024-06-26T09:29:49+01:00
 showDate: false
 showReadingTime: false
