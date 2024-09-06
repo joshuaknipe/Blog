@@ -4,9 +4,10 @@ showDate: false
 showReadingTime: false
 showAuthor: false
 showComments: false
+showTableOfContents: false
 ---
 
-# About
+# About me
 
 ## A brief bio
 
