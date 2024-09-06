@@ -10,9 +10,5 @@ summaryLength = 20
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
-[sitemap]
-  filename = "sitemap.xml"
-  exclude = ["about"]
-
 
 googleAnalytics = "G-XCWTR5DE5E"
