@@ -9,6 +9,13 @@ showComments: false
 showTableOfContents: false
 ---
 
+{{<figure
+    src="img/profile-wide.jpg"
+    alt="A portrait of Josh Knipe"
+    class="mx-auto my-4 max-w-xs sm:max-w-3xl md:max-w-3xl"
+    imgClass="w-full h-auto rounded-lg shadow-md" 
+    >}}
+
 ## A brief bio
 
 Welcome! My name is Josh, and I grew up in Cape Town, South Africa. I am currently based in London, working as a quantitative developer. My professional experience has primarily focused on research and development in derivative pricing, financial modeling, and data pipelines, with smaller projects around LLMs and web development. Fortunately, my work in consulting has allowed me to tackle interesting problems for a variety of clients.
