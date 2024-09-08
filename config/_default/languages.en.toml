@@ -7,7 +7,7 @@ title = "Vault of Josh"
 # copyright = "Copy, _right?_ :thinking_face:"
 
 [params]
-  dateFormat = "2 January 2006"
+  dateFormat = "2 Jan, 2006"
 
   mainSections = ["posts"]
   description = "A blog about knowledge management, software development, home automation, and anything else that interests me"
@@ -15,10 +15,10 @@ title = "Vault of Josh"
 [params.author]
   name = "Joshua Knipe"
   image = "img/profile.jpg"
-  headline = "Quant developer based in London"
+  headline = "Quant developer"
   bio = "Quant developer by day, compulsive tinkerer by night"
   links = [
-     { email = "mailto:joshuaknipe@gmail.com" },
+     { email = "mailto:joshknipe37@gmail.com" },
   #   { link = "https://link-to-some-website.com/" },
   #   { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
   #   { apple = "https://www.apple.com" },

@@ -1,1 +1,9 @@
-Hi there! My name is Josh and I am currently working as a quant developer in London. This mainly involves building stochastic models and other quant functionality for clients. At night, I am often working on other personal projects like home automation, self-hosted home servers, trading bots and addressable LEDs. I am passionate about all things tech and finance!
+Hi there! My name is Josh, and I work as a quant developer in London. In my free time, I dive into personal projects like app development, home automation, trading bots, and tinkering with addressable LEDs. I’m passionate about all things tech and finance!
+
+{{< button href="posts" target="_self" >}}
+Blog
+{{< /button >}}
+
+{{< button href="about" target="_self" >}}
+About me
+{{< /button >}}

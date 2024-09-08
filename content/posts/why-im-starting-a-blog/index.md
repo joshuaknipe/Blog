@@ -1,10 +1,15 @@
 ---
 title: "Why I'm Starting a Blog"
 date: 2024-06-26T09:29:49+01:00
-tags: ['updates', 'personal']
+tags: ["updates", "personal"]
 ---
 
-"Who the hell cares what you think, Josh!?" Besides my friends and family (and even that's a stretch), probably not many. Fortunately, that doesn't bother me anymore! The core of this post started as my own assessment of whether a blog was right for me. I clearly thought the pros outweighed the cons, and maybe you will too by the end.
+{{< lead >}}
+**"Who the hell cares what you think, Josh!?"** Besides my friends and family (and even that's a stretch), probably not many. Fortunately, that doesn't bother me anymore!
+{{< /lead >}}
+
+The core of this post started as my own assessment of whether a blog was right for me. I clearly thought the pros outweighed the cons, and maybe you will too by the end.
+
 
 ## Initial Hesitations
 
@@ -45,5 +50,3 @@ Unfortunately, there are also some downsides to having your own blog. The 3 main
 ## Conclusion
 
 Overall, I do think the benefits outweigh the potential negatives. I'm hoping that starting this blog will be a transformative experience for me. Whether you seek to improve your writing skills, connect with like-minded individuals, or simply share your thoughts with the world, blogging offers a unique and valuable outlet. If you've ever considered starting a blog, I encourage you to take the plunge—you might find, as I have, that the benefits far outweigh the hesitations.
-
-

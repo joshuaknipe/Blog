@@ -1,14 +1,15 @@
 # -- Site Configuration --
 
+theme = "congo"
+
 # baseURL = "https://joshuaknipe.com/"
 defaultContentLanguage = "en"
 
 enableRobotsTXT = true
 paginate = 10
-summaryLength = 20
+summaryLength = 25
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
-
 
 googleAnalytics = "G-XCWTR5DE5E"

@@ -5,7 +5,9 @@ tags: ["updates", "productivity", "obsidian"]
 draft: false
 ---
 
+{{< lead >}}
 **"Enough with the purple app already!"** This is the usual response from my friends after I go on yet another monologue about the benefits and versatility of my favourite app, [Obsidian](https://obsidian.md). Luckily, I can now just send them a link to this post.
+{{< /lead >}}
 
 ## Another Brain?
 
@@ -24,10 +26,24 @@ Building a second brain is closely related to the topic of Personal Knowledge Ma
 2. **Markdown Support**: Notes are written in plain text Markdown, meaning you can create notes without worrying about formatting distractions. Combined with the local storage feature, it also means your Obsidian repository is simply a folder of Markdown files on your device. If you ever get tired of Obsidian, you can still easily access and edit your files with any other text editor. Not being permanently tied to Obsidian is one of its best features, as you know you can preserve your data for the long term.
 
 3. **Linking and Backlinking**: Notes can be bidirectionally linked to create a web of interconnected ideas. As mentioned earlier, this is a crucial requirement for a second brain. Obsidian makes this process very easy - you just enter the name of a note you want to link to the current note between square brackets.  
-   ![Linking example in Obsidian](images/linking.png "Linking example in Obsidian")
+   
+   {{<figure
+    src="images/linking.png"
+    alt="Linking example in Obsidian"
+    caption="Linking example in Obsidian"
+    class="mx-auto my-4 max-w-xs sm:max-w-3xl md:max-w-3xl"
+    imgClass="w-full h-auto rounded-lg shadow-md" 
+    >}}
 
 4. **Graph View** Obsidian provides a visual representation of the connections between notes through the graph view, allowing you to explore relationships in your knowledge. It's like having a mind map that grows organically as you add more notes.
-   ![Multicoloured graph displaying second brain linking](images/graph.png "The graph view of my vault as at July 2024")
+
+   {{<figure
+    src="images/graph.png"
+    alt="Multicoloured graph displaying second brain linking"
+    caption="The graph view of my vault as at July 2024"
+    class="mx-auto my-4 max-w-xs sm:max-w-3xl md:max-w-3xl"
+    imgClass="w-full h-auto rounded-lg shadow-md" 
+    >}}
 
 5. **It's Free**: Obsidian is completely free to use on any device. While Obsidian does offer a paid syncing feature to edit notes from any of your devices, you can achieve the same setup for free with some tinkering.
 
@@ -49,14 +65,15 @@ SORT file.day
 ```
 
 **Calendar**: Integrates a calendar view into your notes for easy navigation between your daily and weekly notes
-{{< figure
+
+{{<figure
     src="images/calendar.png"
     alt="Calendar plugin example in Obsidian"
     caption="Calendar plugin"
-    default=true
-    width="50%"
-    class="centre-image"
+    class="center_scaled_smaller"
     >}}
+
+
 
 **DB Folder**: allows you to create Notion like databases in your Obsidian Vault. This allows you to view and edit the metadata of your notes without having to open them directly. Perfect for habit tracking!
 ![DB Folder plugin example in Obsidian](images/dbfolder.png "DB Folder example showing metadata for my daily notes")

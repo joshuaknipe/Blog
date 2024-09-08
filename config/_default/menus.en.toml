@@ -36,13 +36,14 @@
 
 [[main]]
   identifier = "search"
-  weight = 98
+  weight = 90
+  title = "Search this website"
   [main.params]
     action = "search"
 
 [[main]]
   identifier = "appearance"
-  weight = 99
+  weight = 95
   [main.params]
     action = "appearance"
 
