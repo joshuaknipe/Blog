@@ -31,8 +31,7 @@ Building a second brain is closely related to the topic of Personal Knowledge Ma
     src="images/linking.png"
     alt="Linking example in Obsidian"
     caption="Linking example in Obsidian"
-    class="mx-auto my-4 max-w-xs sm:max-w-3xl md:max-w-3xl"
-    imgClass="w-full h-auto rounded-lg shadow-md" 
+    class="center_scaled"
     >}}
 
 4. **Graph View** Obsidian provides a visual representation of the connections between notes through the graph view, allowing you to explore relationships in your knowledge. It's like having a mind map that grows organically as you add more notes.
@@ -41,8 +40,7 @@ Building a second brain is closely related to the topic of Personal Knowledge Ma
     src="images/graph.png"
     alt="Multicoloured graph displaying second brain linking"
     caption="The graph view of my vault as at July 2024"
-    class="mx-auto my-4 max-w-xs sm:max-w-3xl md:max-w-3xl"
-    imgClass="w-full h-auto rounded-lg shadow-md" 
+    class="center_scaled"
     >}}
 
 5. **It's Free**: Obsidian is completely free to use on any device. While Obsidian does offer a paid syncing feature to edit notes from any of your devices, you can achieve the same setup for free with some tinkering.
