@@ -1,7 +1,7 @@
 ---
 title: "Why I'm Starting a Blog"
 date: 2024-06-26T09:29:49+01:00
-tags: ["updates", "personal"]
+topics: ["updates", "personal"]
 ---
 
 {{< lead >}}

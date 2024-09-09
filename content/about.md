@@ -9,12 +9,13 @@ showComments: false
 showTableOfContents: false
 ---
 
-{{<figure
-    src="img/profile-wide.jpg"
-    alt="A portrait of Josh Knipe"
-    class="mx-auto my-4 max-w-xs sm:max-w-3xl md:max-w-3xl"
-    imgClass="w-full h-auto rounded-lg shadow-md" 
-    >}}
+<div class="prose mx-auto w-3/4">
+  {{<figure
+      src="img/profile-wide.jpg"
+      alt="A portrait of Josh Knipe"
+      class="mx-auto my-4 w-full rounded-2xl shadow-md"
+      >}}
+</div>
 
 ## A brief bio
 

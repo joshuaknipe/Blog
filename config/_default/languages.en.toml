@@ -9,7 +9,7 @@ title = "Vault of Josh"
 [params]
   dateFormat = "2 Jan, 2006"
 
-  mainSections = ["posts"]
+  mainSections = ["blog"]
   description = "A blog about knowledge management, software development, home automation, and anything else that interests me"
 
 [params.author]
