@@ -62,7 +62,21 @@ module.exports = {
             "--tw-prose-quotes": theme("colors.neutral.700 / 1"),
             "--tw-prose-quote-borders": theme("colors.primary.200 / 1"),
             "--tw-prose-captions": theme("colors.neutral.500 / 1"),
-            "--tw-prose-code": theme("colors.secondary.700 / 1"),
+            "--tw-prose-code": "inherit",
+            "code:not(pre code)": {
+              color: "inherit",
+              backgroundColor: "rgb(var(--color-neutral-100))",
+              padding: "0.2em 0.4em",
+              borderRadius: "6px",
+              fontWeight: "400",
+              fontSize: "0.9em",
+            },
+            'code::before': {
+              content: '""'
+            },
+            'code::after': {
+              content: '""'
+            },
             "--tw-prose-pre-code": theme("colors.neutral.700 / 1"),
             "--tw-prose-pre-bg": theme("colors.neutral.50 / 1"),
             "--tw-prose-th-borders": theme("colors.neutral.500 / 1"),
@@ -110,6 +124,30 @@ module.exports = {
               padding: "0.1rem 0.2rem",
               borderRadius: "0.12rem",
             },
+            'ol': {
+              'li': {
+                marginTop: '0.5em',
+                marginBottom: '0.5em',
+                'p': {
+                  margin: '0',
+                },
+              },
+            },
+            'ol > li > ul': {
+              marginTop: '0.25em',
+              marginBottom: '0.25em',
+            },
+            'ol > li > ul > li': {
+              marginTop: '0.125em',
+              marginBottom: '0.125em',
+              paddingLeft: '0.375em',
+              'p': {
+                margin: '0',
+              },
+            },
+            'ol > li:has(> ul)': {
+              marginBottom: '0',
+            },
           },
         },
         invert: {
@@ -124,9 +162,49 @@ module.exports = {
             mark: {
               backgroundColor: theme("colors.secondary.400 / 1"),
             },
+            "code:not(pre code)": {
+              color: "inherit",
+              backgroundColor: "rgb(var(--color-neutral-700))",
+            },
           },
         },
       }),
+      backgroundColor: {
+        'code-title': '#f0f3f3',
+      },
+      customUtilities: {
+        '.code-title': {
+          '@apply inline-block px-3 py-0.5 text-sm rounded-t-lg': {},
+          'background-color': '#f0f3f3',
+          '@apply dark:bg-neutral-700': {}, // Use neutral-700 for dark mode
+          '@apply relative top-[3px] left-[1px] z-10': {}, // Increased top offset to touch the code block
+        },
+        '.code-block': {
+          '@apply rounded-tl-none transition-all duration-300 ease-in-out': {}, // Remove top-left rounded corner
+        },
+        '.code-block-container': {
+          '@apply relative mb-1': {}, // Add bottom margin
+        },
+        '.expand-toggle-container': {
+          '@apply flex justify-start': {}, // Use flexbox for alignment
+        },
+        '.expand-toggle': {
+          '@apply px-2 py-1 text-xs font-medium text-neutral-600 bg-neutral-100 hover:bg-neutral-200 dark:text-neutral-300 dark:bg-neutral-600 dark:hover:bg-neutral-500 rounded transition-colors duration-200': {},
+        },
+        '.post-img-caption': {
+          '@apply w-auto m-auto italic text-center': {},
+        },
+        '.not-prose .chroma': {
+          'font-weight': '400',
+        },
+        '.no-line-numbers': {
+          '& td:first-child': {
+            '& .chroma .lnt': {
+              '@apply pl-0 pr-0 text-transparent select-none': {},
+            },
+          },
+        },
+      },
       borderRadius: {
         none: '0px',
         sm: '0.125rem',
@@ -259,5 +337,10 @@ module.exports = {
       },
     },
   },
-  plugins: [require("@tailwindcss/typography")],
+  plugins: [require("@tailwindcss/typography"),
+    // Add this new plugin
+    function({ addUtilities, theme }) {
+      addUtilities(theme('customUtilities'))
+    },
+  ],
 };

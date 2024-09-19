@@ -11,31 +11,9 @@ pre {
   font-family: "Source Code Pro", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0;
-  margin-bottom: 0;
+:root[class^="dark"] .chroma,
+:root[class~="dark"] .chroma,
+.chroma {
+    font-size: 0.75rem;
 }
 
-.center_scaled {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
-}
-
-.center_scaled_smaller {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-}
-
-.center_scaled_smallest {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 70%;
-}

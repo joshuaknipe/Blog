@@ -1,0 +1,31 @@
+<div class="not-prose">
+    {{ $lang := .Get 0 | default "" }}
+    {{ $options := .Get 1 | default "" }}
+    {{ $title := .Get 2 | default "" }}
+    {{ if $title }}
+        <p class="code-title text-sm italic">{{ $title }}</p>
+    {{ end }}
+    {{ $code := trim .Inner "\n\r" }}
+    {{ $lines := split $code "\n" }}
+    <div class="code-block-container">
+        <div class="code-block overflow-hidden transition-all duration-300 ease-in-out" 
+        style="max-height: 27rem;">
+        {{ $modifiedOptions := replace $options "linenos=false" "linenos=table" }}
+        {{ if not (in $options "linenos=table") }}
+            <div class="no-line-numbers">
+                {{ highlight $code $lang $modifiedOptions }}
+            </div>
+        {{ else }} 
+            {{ highlight $code $lang $options }}
+        {{ end }}
+        </div>
+    </div>
+    {{ if gt (len $lines) 20 }}
+        <div class="expand-toggle-container">
+            <button class="expand-toggle">
+                <span class="expand-text">Expand</span>
+                <span class="collapse-text hidden">Collapse</span>
+            </button>
+        </div>
+    {{ end }}
+</div>
