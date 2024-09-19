@@ -7,7 +7,7 @@ url: "/blog/obsidian-periodic-notes/"
 ---
 
 {{< lead >}}
-"I'd like to use your Obsidian templates, but they look so complicated?" Not anymore! A comprehensive guide on how to set up periodic notes to keep track of your habits, goals, reflections and more.
+**"I'd like to use your Obsidian templates, but they look so complicated?"** Not anymore! A comprehensive guide on how to set up periodic notes to keep track of your habits, goals, reflections and more.
 {{< /lead >}}
 
 {{<figure
