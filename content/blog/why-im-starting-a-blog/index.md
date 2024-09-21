@@ -25,7 +25,7 @@ This approach also encourages an iterative learning process. By regularly revisi
 
 ## Knowledge Repository
 
-We’re living in an era of overwhelming information flow, and it’s all too easy to read something valuable one day, only to forget it soon after. By starting a blog, you can create a repository for capturing key learnings and ideas in a more permanent way. While I don't think this can replace a fully-fledged knowledge management system (like [Obsidian]({{< relref "obsidian-as-a-second-brain" >}})), having a place to store writings you've spent more time on provides a useful view of what has been interesting or important to you through time. In the future, I’ll be able to look back on old posts and reflect on how my thinking and opinions have evolved over the years. Hopefully, future me won't cringe too much at these earlier posts...
+We’re living in an era of overwhelming information flow, and it’s all too easy to read something valuable one day, only to forget it soon after. By starting a blog, you can create a repository for capturing key learnings and ideas in a more permanent way. While I don't think this can replace a fully-fledged knowledge management system (like [Obsidian](/blog/obsidian-as-a-second-brain/)), having a place to store writings you've spent more time on provides a useful view of what has been interesting or important to you through time. In the future, I’ll be able to look back on old posts and reflect on how my thinking and opinions have evolved over the years. Hopefully, future me won't cringe too much at these earlier posts...
 
 ## Building New Skills
 
