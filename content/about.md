@@ -24,7 +24,7 @@ I am happiest when learning something new or solving engaging problems. This blo
 - **Web development**: I primarily use TailWind, React, and Next.js to build web apps. This blog is built with Hugo though - I wanted a fast framework that offered me flexibility in design and deployment.
 - **Mobile app development**: React Native and Expo are my go-to tools for building mobile apps currently.
 - **Generative AI**: I’m especially interested in its applications to Retrieval Augmented Generation (RAG). Check out [Rag Demo](https://github.com/joshuaknipe/RAG-app) if you're curious.
-- **Personal knowledge management**: I'm a big fan of tools like Obsidian - see [this post](https://joshuaknipe.com/posts/obsidian-as-a-second-brain/) for why.
+- **Personal knowledge management**: I'm a big fan of tools like Obsidian - see [this post](/blog/obsidian-as-a-second-brain/) for why.
 - **Self-hosting**: I run a lightweight Debian server at home for crucial services and a beefier Arch minipc for everything else. Some of my favourite services to include:
   - **Hyperion**: I use Hyperion to sync addressable RGB LEDs to my TV. See [this demo](https://youtube.com/shorts/Ao_SEIQEyLU?si=yeyIdVStw6NVg6z1) for my home setup.
   - **Youtube summarizer**: I built a custom [Youtube video summarizer](https://github.com/joshuaknipe/ytsummarizer) with Flask to condense videos.
