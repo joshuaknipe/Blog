@@ -21,7 +21,7 @@ I am happiest when learning something new or solving engaging problems. This blo
 
 ### Some of my other interests include:
 
-- **Web development**: I primarily use TailWind, React, and Next.js to build web apps. This blog is built with Hugo though - I wanted a fast framework that offered me flexibility in design and deployment.
+- **Web development**: I primarily use TailWind, React, and Next.js to build web apps. This blog is built with Hugo though - I wanted a fast framework that offered me flexibility in design and deployment. See [this post](/blog/building-this-website/) for more.
 - **Mobile app development**: React Native and Expo are my go-to tools for building mobile apps currently.
 - **Generative AI**: I’m especially interested in its applications to Retrieval Augmented Generation (RAG). Check out [Rag Demo](https://github.com/joshuaknipe/RAG-app) if you're curious.
 - **Personal knowledge management**: I'm a big fan of tools like Obsidian - see [this post](/blog/obsidian-as-a-second-brain/) for why.
