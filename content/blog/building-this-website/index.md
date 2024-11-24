@@ -1,7 +1,7 @@
 ---
 title: "Why I Built This Website with Hugo"
 date: 2024-11-24T09:29:49+01:00
-topics: ["updates", "personal"]
+topics: ["updates", "Hugo", "web development"]
 ---
 
 {{< lead >}}
