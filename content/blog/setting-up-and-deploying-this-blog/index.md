@@ -95,13 +95,13 @@ Once satisfied, mark the post as ready by setting draft to false in the frontmat
 ### Why Cloudflare Pages?
 
 Using [**Cloudflare Pages**](https://pages.cloudflare.com/) to host a Hugo blog offers several benefits, especially if you're looking for a reliable, fast, and easy-to-manage platform. Here's why it was my choice:  
-- Free Hosting: generous free-tier hosting, including unlimited requests and bandwidth.
-- Easy Integration with Git: Cloudflare Pages automatically integrates with Git repositories (GitHub, GitLab, Bitbucket). Every time you push changes, it triggers a build and deploys your site, enabling a seamless CI/CD workflow.  
-- Global Content Delivery: Cloudflare Pages automatically serves your site through Cloudflare’s global CDN. This ensures low latency and fast load times for users regardless of their location.
-- Automatic HTTPS: No need to worry about purchasing or renewing SSL certificates. Cloudflare Pages provides free SSL/TLS for your site, ensuring secure connections with minimal setup.
-- Support for Custom Domains: You can easily integrate your own domain and manage DNS directly within Cloudflare's dashboard.
-- No Vendor Lock-in: Since your site is entirely built with Hugo, and the deployment workflow is Git-based, you can move to another host very easily.
-- Zero Build Time for Preview Links: For every commit or pull request, Cloudflare Pages generates a unique preview link. This allows you to test and share changes before merging them into the main branch. 
+- **Free Hosting:** generous free-tier hosting, including unlimited requests and bandwidth.
+- **Easy Integration with Git:** Cloudflare Pages automatically integrates with Git repositories (GitHub, GitLab, Bitbucket). Every time you push changes, it triggers a build and deploys your site, enabling a seamless CI/CD workflow.  
+- **Global Content Delivery:** Cloudflare Pages automatically serves your site through Cloudflare’s global CDN. This ensures low latency and fast load times for users regardless of their location.
+- **Automatic HTTPS:** No need to worry about purchasing or renewing SSL certificates. Cloudflare Pages provides free SSL/TLS for your site, ensuring secure connections with minimal setup.
+- **Support for Custom Domains:** You can easily integrate your own domain and manage DNS directly within Cloudflare's dashboard.
+- **No Vendor Lock-in:** Since your site is entirely built with Hugo, and the deployment workflow is Git-based, you can move to another host very easily.
+- **Zero Build Time for Preview Links:** For every commit or pull request, Cloudflare Pages generates a unique preview link. This allows you to test and share changes before merging them into the main branch. 
 
 ### Setting up Cloudflare Pages
 
