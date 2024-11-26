@@ -1,7 +1,7 @@
 ---
 title: "Setting Up and Deploying This Blog"
 date: 2024-11-25T09:29:49+01:00
-topics: ["updates", "Hugo", "web development"]
+topics: ["updates", "hugo", "web development"]
 ---
 
 {{< lead >}}
