@@ -1,5 +1,5 @@
 ---
-title: "Why I Built This Website with Hugo"
+title: "Why I Built This Blog with Hugo"
 date: 2024-11-24T09:29:49+01:00
 topics: ["updates", "Hugo", "web development"]
 ---
