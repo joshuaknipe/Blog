@@ -71,4 +71,4 @@ The main trade-off with Hugo is its learning curve, particularly when it comes t
 
 If you're thinking about creating a personal blog or portfolio, I highly recommend giving Hugo a try. The process is easier than it seems, and the rewards—both in terms of speed and control—are worth it.
 
-In my next post, I'll detail how I set up this blog, customised it to my liking, and deployed it for free on Cloudflare Pages.
+In my next post, I'll detail how I set up this blog and deployed it for free on Cloudflare Pages.
