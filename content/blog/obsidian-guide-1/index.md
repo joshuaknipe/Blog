@@ -14,7 +14,7 @@ url: "/blog/obsidian-periodic-notes/"
     src="images/dailyNoteHead.png"
     alt="Daily note in Obsidian"
     caption="My daily note template in Obsidian"
-    class="mx-auto my-0 rounded-2xl shadow-lg max-w-md"
+    class="mx-auto my-0 rounded-2xl shadow-lg"
     >}}
 
 ## Why I created these templates
@@ -27,7 +27,7 @@ Over time, I realized I wanted to keep track of much more than that. I needed a 
     src="images/dailyNoteFoot.png"
     alt="Daily note in Obsidian"
     caption="My daily note template in Obsidian"
-    class="mx-auto my-0 rounded-2xl shadow-lg max-w-md"
+    class="mx-auto my-0 rounded-2xl shadow-lg"
     >}}
 
 The templates I’m currently using—and sharing in this post—were created in November 2023. Since then, I’ve generated over 300 daily and 50 weekly notes using this format. I’m sharing these templates and setup guide because, when I first started with Obsidian, I was searching for inspiration too. Although the templates may seem a bit overwhelming at first, most of the content is automatically generated, making it easy to create new notes.
@@ -36,7 +36,7 @@ The templates I’m currently using—and sharing in this post—were created in
     src="images/weeklyNote.png"
     alt="Weekly note in Obsidian"
     caption="My weekly note template in Obsidian"
-    class="mx-auto my-0 rounded-2xl shadow-lg max-w-md"
+    class="mx-auto my-0 rounded-2xl shadow-lg"
     >}}
 
 By the end of this post, you’ll have a system that captures everything you want to track—and more. You’ll also gain a solid understanding of Templater, Dataview, and how to customize the templates to suit your needs. If you'd rather skip the detailed walkthrough, you can access the entire collection of templates [here](https://github.com/joshuaknipe/obsidian-templates/). 
@@ -122,7 +122,7 @@ This automatically moves your periodic note to the correct location as it is cre
 {{<figure
     src="images/periodicNavigation.gif"
     alt="Periodic plugin settings"
-    class="mx-auto my-0 rounded-2xl shadow-lg max-w-lg"
+    class="mx-auto my-0 rounded-2xl shadow-lg"
     >}}
 
 ## Daily template explained
@@ -216,7 +216,7 @@ Any edits you make to the DB Folder database will automatically update the attri
 {{<figure
     src="images/dailyNoteHeader.png"
     alt="Templater settings"
-    class="mx-auto my-0 w-9/12 rounded-2xl shadow-lg max-w-md"
+    class="mx-auto my-0 w-9/12 rounded-2xl shadow-lg"
     >}}
 
 The next piece of the template is needed to automatically create the linking between daily, weekly, monthly and yearly notes:
@@ -304,7 +304,7 @@ These links allow for easy navigation through days, weeks, months etc and can al
 {{<figure
     src="images/dailyAttributesVisual.png"
     alt="Templater settings"
-    class="mx-auto my-0 w-full rounded-2xl shadow-lg max-w-lg"
+    class="mx-auto my-0 w-full rounded-2xl shadow-lg"
     >}}
 
 The next section of the template is a Dataview query which visualizes the attributes you are tracking. I’ve found this to be a valuable way to get a quick overview of my day and stay accountable for the habits I’m trying to build.
@@ -361,7 +361,7 @@ table:has([href="#_/habits"]) {
 {{<figure
     src="images/practiceGratitude.png"
     alt="Templater settings"
-    class="mx-auto my-0 w-full rounded-2xl shadow-lg max-w-lg"
+    class="mx-auto my-0 w-full rounded-2xl shadow-lg"
     >}}
 
 The next section of the template is a DataviewJS snippet that extracts, randomizes, and displays a random gratitude and learning from your previous daily notes. I’ve found this helps me reflect more and encourages me to write gratitudes and learnings regularly, knowing they’ll resurface again in the future.
@@ -420,7 +420,7 @@ dv.paragraph("*Practice gratitude:* " + gratitudegreeting.message +
 {{<figure
     src="images/quoteAndGoals.png"
     alt="Obsidian Daily Template with quote and goals"
-    class="mx-auto my-0 w-full rounded-2xl shadow-lg max-w-lg"
+    class="mx-auto my-0 w-full rounded-2xl shadow-lg"
     >}}
 
 The next section fetches a random daily quote from the web and displays it in the daily note using Templater. Keep in mind that the API used in the background ([quotable](https://github.com/lukePeavey/quotable)) can occasionally go down, which may result in an "Error generating daily quote" message instead of the quote.
@@ -445,7 +445,7 @@ Any changes made to the "Goals for this week" section in your weekly note will a
 {{<figure
     src="images/todoist.png"
     alt="Obsidian Todoist integration"
-    class="mx-auto my-0 w-11/12 rounded-2xl shadow-lg max-w-md"
+    class="mx-auto my-0 w-11/12 rounded-2xl shadow-lg"
     >}}
 
 The next section allows you to fetch your Todoist tasks for the day and display them in your daily note. You can add new tasks to your Todoist account from within Obsidian by clicking the `+` button. This requires the Todoist plugin to be installed and configured with your Todoist account.
@@ -471,7 +471,7 @@ The `> [!todo]` statement is optional but enables the Obsidian callout formattin
 {{<figure
     src="images/highlights.png"
     alt="Obsidian highlights of the day"
-    class="mx-auto my-0 w-full rounded-2xl shadow-lg max-w-md"
+    class="mx-auto my-0 w-full rounded-2xl shadow-lg"
     >}}
 
 These sections (and similar ones below) are where I document my learnings, highlights, and other reflections for each day. I’ve found that writing these down regularly encourages more thoughtful reflection. If you have multiple learnings or highlights in a day, add them in the same format, e.g., "Highlight:: [your highlight here]". The double colon is recognised by Dataview as a field and ensures that your entries filter through to other notes.
@@ -481,7 +481,7 @@ These sections (and similar ones below) are where I document my learnings, highl
 {{<figure
     src="images/kindleAndPodcast.png"
     alt="Obsidian random kindle highlights and random notes"
-    class="mx-auto my-0 w-full rounded-2xl shadow-lg max-w-lg"
+    class="mx-auto my-0 w-full rounded-2xl shadow-lg"
     >}}
 
 The next section of the daily note template displays a random highlight from my collection of Kindle and podcast notes. I added this feature because I found it challenging to keep track of all the highlights I made from podcasts and Kindle notes, and I thought it would be helpful to fetch a random one each day to bring past highlights back to mind.
@@ -491,7 +491,7 @@ This requires your underlying notes to be formatted with the "Kindle:: [your hig
 {{<figure
     src="images/kindleHighlights.png"
     alt="Obsidian random kindle highlights and random notes"
-    class="mx-auto my-0 w-full rounded-2xl shadow-lg max-w-lg"
+    class="mx-auto my-0 w-full rounded-2xl shadow-lg"
     caption="One of my Kindle notes (Kindle/Paul Graham Essays)"
     >}}
 
@@ -500,7 +500,7 @@ This is easy to achieve automatically for all your kindle notes by using the [Ob
 {{<figure
     src="images/kindlePluginTemplate.png"
     alt="Obsidian random kindle highlights and random notes"
-    class="mx-auto my-0 w-full rounded-2xl shadow-lg max-w-xl"
+    class="mx-auto my-0 w-full rounded-2xl shadow-lg"
     caption="Kindle plugin settings"
     >}}
 
@@ -509,7 +509,7 @@ This is easy to achieve automatically for all your kindle notes by using the [Ob
 {{<figure
     src="images/randomNotes.png"
     alt="Obsidian random kindle highlights and random notes"
-    class="mx-auto my-0 w-full rounded-2xl shadow-lg max-w-lg"
+    class="mx-auto my-0 w-full rounded-2xl shadow-lg"
     >}}
 
 The final section of the daily note template displays 3 random notes from your vault. I’ve found this useful for recalling concepts or ideas I’ve noted down in the past. Once again, we rely on DataviewJS to fetch the random notes. The highlighted lines are used to exclude certain folders (like Journal, Templates, Assets etc), but you can add more exclusions as needed.
@@ -548,7 +548,7 @@ The "Files created on this day" section lets you see all the notes you created o
 {{<figure
     src="images/weeklyhead.png"
     alt="Weekly note template in Obsidian"
-    class="mx-auto my-0 w-full rounded-2xl shadow-lg max-w-lg"
+    class="mx-auto my-0 w-full rounded-2xl shadow-lg"
     caption="Weekly note template"
     >}}
 
@@ -559,7 +559,7 @@ Similar to the daily template, I have a Dataview table visualization that displa
 {{<figure
     src="images/weeklyAttributesVisual.png"
     alt="Templater settings"
-    class="mx-auto my-0 w-full rounded-2xl shadow-lg max-w-lg"
+    class="mx-auto my-0 w-full rounded-2xl shadow-lg"
     caption="Dataview visualisation of daily note attributes within the weekly note template"
     >}}
 
@@ -588,7 +588,7 @@ sort file.name ASC
 {{<figure
     src="images/monthlyHead.png"
     alt="Monthly note template"
-    class="mx-auto my-0 w-full rounded-2xl shadow-lg max-w-lg"
+    class="mx-auto my-0 w-full rounded-2xl shadow-lg"
     caption="Monthly note template"
     >}}
 
@@ -599,7 +599,7 @@ Below that, I have a Dataview query that lists memorable days from the current m
 {{<figure
     src="images/monthReview.png"
     alt="Monthly note template in Obsidian"
-    class="mx-auto my-0 w-full rounded-2xl shadow-lg max-w-lg"
+    class="mx-auto my-0 w-full rounded-2xl shadow-lg"
     >}}
 
 The list is generated by searching for pages in the vault that have an `alias` property in the metadata, and then checking if the `month` field matches the current month.
@@ -620,7 +620,7 @@ Below this, I have Dataview queries that list all the daily learnings and highli
 {{<figure
     src="images/monthLearning.png"
     alt="Monthly note template in Obsidian"
-    class="mx-auto my-0 w-full rounded-2xl shadow-lg max-w-lg"
+    class="mx-auto my-0 w-full rounded-2xl shadow-lg"
     >}}
 
 {{< showcode markdown "linenos=false" "Templates/Monthly Template" >}}
@@ -640,7 +640,7 @@ SORT file.day
 {{<figure
     src="images/yearlyNote.png"
     alt="Monthly note template in Obsidian"
-    class="mx-auto my-0 w-12/12 rounded-2xl shadow-lg max-w-md"
+    class="mx-auto my-0 w-12/12 rounded-2xl shadow-lg"
     >}}
 
 Finally, the yearly note template offers an overview of the attributes I track in my daily notes. It’s a great way to monitor long-term progress and identify trends or patterns. This note is fully automated and requires no manual input once the template is set up.

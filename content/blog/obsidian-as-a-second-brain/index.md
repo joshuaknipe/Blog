@@ -32,7 +32,7 @@ Building a second brain is closely related to the topic of Personal Knowledge Ma
       src="images/linking.png"
       alt="Linking example in Obsidian"
       caption="Linking example in Obsidian"
-      class="w-11/12 mx-auto my-0 rounded-2xl shadow-lg max-w-md"
+      class="w-11/12 mx-auto my-0 rounded-2xl shadow-lg"
     >}}
 
 4. **Graph View** Obsidian provides a visual representation of the connections between notes through the graph view, allowing you to explore relationships in your knowledge. It's like having a mind map that grows organically as you add more notes.
@@ -41,7 +41,7 @@ Building a second brain is closely related to the topic of Personal Knowledge Ma
     src="images/graph.png"
     alt="Multicoloured graph displaying second brain linking"
     caption="The graph view of my vault as at July 2024"
-    class="w-11/12 mx-auto my-0 rounded-full shadow-lg max-w-md"
+    class="w-11/12 mx-auto my-0 rounded-full shadow-lg"
     >}}
 
 5. **It's Free**: Obsidian is completely free to use on any device. While Obsidian does offer a paid syncing feature to edit notes from any of your devices, you can achieve the same setup for free with some tinkering.
@@ -87,7 +87,7 @@ SORT file.day
     src="images/charts.png"
     alt="Multicoloured calendar Github style"
     caption="Charts example in my yearly note"
-    class="w-full mx-auto my-0 rounded-2xl shadow-lg max-w-lg"
+    class="w-full mx-auto my-0 rounded-2xl shadow-lg"
     >}}
 
 **Omnisearch**: a search engine that helps you find the most relevant notes in your vault, thanks to its smart weighting algorithm
@@ -98,7 +98,7 @@ SORT file.day
     src="images/kindle.png"
     alt="Image showing extracts from a book"
     caption="Kindle extracts from Paul Graham's essay: \"How to make wealth\""
-    class="w-11/12 mx-auto my-0 rounded-2xl shadow-lg max-w-lg"
+    class="w-11/12 mx-auto my-0 rounded-2xl shadow-lg"
     >}}
 
 **Omnivore plugin**: sync highlights from [Omnivore](https://omnivore.app) (my favourite read it later app for articles and blog posts) into Obsidian

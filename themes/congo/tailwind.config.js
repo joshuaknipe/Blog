@@ -235,7 +235,7 @@ module.exports = {
         min: 'min-content',
         max: 'max-content',
         fit: 'fit-content',
-        prose: '75ch',
+        prose: '65ch',
         ...breakpoints(theme('screens')),
       }),
       width: ({ theme }) => ({
