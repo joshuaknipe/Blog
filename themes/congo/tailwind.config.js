@@ -180,7 +180,7 @@ module.exports = {
           '@apply relative top-[3px] left-[1px] z-10': {}, // Increased top offset to touch the code block
         },
         '.code-block': {
-          '@apply rounded-tl-none transition-all duration-300 ease-in-out': {}, // Remove top-left rounded corner
+            '@apply rounded-tl-none transition-all duration-300 ease-in-out overflow-hidden': {},
         },
         '.code-block-container': {
           '@apply relative mb-1': {}, // Add bottom margin
@@ -235,7 +235,7 @@ module.exports = {
         min: 'min-content',
         max: 'max-content',
         fit: 'fit-content',
-        prose: '65ch',
+        prose: '75ch',
         ...breakpoints(theme('screens')),
       }),
       width: ({ theme }) => ({
