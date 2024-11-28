@@ -135,4 +135,4 @@ Using [**Cloudflare Pages**](https://pages.cloudflare.com/) to host a Hugo blog 
 
 You now have a fully functional Hugo blog deployed on Cloudflare Pages! With Hugo’s speed and flexibility and Cloudflare’s robust hosting, you’re set to deliver a blazing-fast experience to your readers. For updates, simply commit and push your changes to your Git repository — Cloudflare will handle the rest.
 
-The next post will cover how some of the customisations I made to the style of this website using Tailwind CSS.
+The next post will cover how some of the customisations I made to the style and functionality of this website.
