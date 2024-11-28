@@ -185,7 +185,7 @@ customUtilities: {
     '@apply relative top-[3px] left-[1px] z-10': {}, // Increased top offset to touch the code block
 },
 '.code-block': {
-    '@apply rounded-tl-none transition-all duration-300 ease-in-out': {}, // Remove top-left rounded corner, add transition and easing
+    '@apply rounded-tl-none transition-all duration-300 ease-in-out overflow-hidden': {}, // Remove top-left rounded corner, add transition and easing
 },
 '.code-block-container': {
     '@apply relative mb-1': {}, // Add bottom margin
@@ -271,7 +271,7 @@ For example, I created a custom shortcode (`<showcode>`) to display code example
     {{ $code := trim .Inner "\n\r" }}
     {{ $lines := split $code "\n" }}
     <div class="code-block-container">
-        <div class="code-block overflow-hidden" style="max-height: 27rem;">
+        <div class="code-block" style="max-height: 27rem;">
         {{ $modifiedOptions := replace $options "linenos=false" "linenos=table" }}
         {{ if not (in $options "linenos=table") }}
             <div class="no-line-numbers">
@@ -299,7 +299,7 @@ For example, I created a custom shortcode (`<showcode>`) to display code example
     - `title` - The title of the code block
 2. If a title is provided, lines 5-7 shows it above the code block with styling from the custom `.code-title` class
 3. Lines 8-9 retrieves the actual code to be displayed from the shortcode's inner content (`.Inner`), trims any whitespace and then splits it into lines to count them.
-4. Line 11 creates a code block with a maximum height of `27rem` (i.e. the height of the collapsed code block). If you are wondering why `overflow-hidden` is not moved to the `.code-block` class in `tailwind.config.js`, it is because inline styles have higher specificity than classes and this stops it from being overridden by the `custom.js` file below.
+4. Line 11 creates a code block with a maximum height of `27rem` (i.e. the height of the collapsed code block).
 5. Lines 12-19 conditionally applies the `no-line-numbers` class to the code block depending on the options passed and uses Hugo's `highlight` function to display the code. This allows for line highlighting without line numbers.
 6. Lines 22-29 adds an expand/collapse button if the code block has more than 20 lines.
 
