@@ -2217,20 +2217,8 @@ code {
   max-width: 100%;
 }
 
-.max-w-lg {
-  max-width: 32rem;
-}
-
-.max-w-md {
-  max-width: 28rem;
-}
-
 .max-w-prose {
-  max-width: 65ch;
-}
-
-.max-w-xl {
-  max-width: 36rem;
+  max-width: 75ch;
 }
 
 .flex-auto {
